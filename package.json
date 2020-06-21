@@ -1,0 +1,23 @@
+{
+  "name": "node-test-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx karma start --single-run",
+    "test:dev": "npx karma start",
+    "test:jasmine": "npx jasmine"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^16.5.1",
+    "jasmine": "^3.5.0",
+    "karma": "^5.1.0",
+    "karma-browserify": "^7.0.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-jasmine": "^3.3.1",
+    "watchify": "^3.11.1"
+  }
+}
